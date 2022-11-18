@@ -18,5 +18,8 @@ RUN apk add --no-cache \
 	traceroute \
 	&& :
 
+# Update rust
 RUN rustup update
+
+
 
